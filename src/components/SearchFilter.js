@@ -6,13 +6,13 @@ export default function SearchFilter({ search, setSearch, category, setCategory 
         placeholder="Search products..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="px-4 py-2 border rounded-lg w-full md:w-1/2"
+        className="px-4 py-2 text-black bg-white border rounded-lg w-full md:w-1/2"
       />
 
       <select
         value={category}
         onChange={(e) => setCategory(e.target.value)}
-        className="px-4 py-2 border rounded-lg w-full md:w-1/3"
+        className="px-4 py-2 text-black bg-white border rounded-lg w-full md:w-1/3"
       >
         <option value="">All Categories</option>
         <option value="Tech">Tech</option>
