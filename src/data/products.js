@@ -1,0 +1,135 @@
+const products = [
+  {
+    id: 1,
+    title: "Wireless Headphones",
+    slug: "wireless-headphones",
+    category: "Tech",
+    image: "/products/headphone.jpg",
+    description: "High quality sound with noise cancellation.",
+    price: 99,
+    rating: 4.8,
+    pros: ["Strong bass", "Noise cancellation", "Comfortable fit"],
+    cons: ["No microphone"],
+    affiliateLink: "https://www.amazon.com/dp/B08XXXXXXX?tag=YOUR_AFFILIATE_ID"
+  },
+  {
+    id: 2,
+    title: "Smart Watch",
+    slug: "smart-watch",
+    category: "Tech",
+    image: "/products/smart-watch.jpg",
+    description: "Track fitness and notifications easily.",
+    price: 149,
+    rating: 4.5,
+    pros: ["Heart rate monitor", "Notifications", "Water-resistant"],
+    cons: ["Battery life could be better"],
+    affiliateLink: "https://www.amazon.com/dp/B08YYYYYYY?tag=YOUR_AFFILIATE_ID"
+  },
+  {
+    id: 3,
+    title: "LED Desk Lamp",
+    slug: "led-desk-lamp",
+    category: "Home",
+    image: "/products/Led-Desk-Lamp.jpg",
+    description: "Energy efficient and stylish desk lamp.",
+    price: 39,
+    rating: 4.6,
+    pros: ["Adjustable brightness", "Sleek design", "Energy saver"],
+    cons: ["Not very portable"],
+    affiliateLink: "https://www.amazon.com/dp/B08ZZZZZZ?tag=YOUR_AFFILIATE_ID"
+  },
+  {
+    id: 4,
+    title: "Air Fryer",
+    slug: "air-fryer",
+    category: "Kitchen",
+    image: "/products/Air-fryer.jpg",
+    description: "Cook healthy meals easily.",
+    price: 129,
+    rating: 4.7,
+    pros: ["Quick cooking", "Healthy meals", "Easy cleanup"],
+    cons: ["Limited capacity"],
+    affiliateLink: "https://www.amazon.com/dp/B08AAAAAA?tag=YOUR_AFFILIATE_ID"
+  },
+  {
+    id: 5,
+    title: "Noise Cancelling Earbuds Pro",
+    slug: "noise-cancelling-earbuds-pro",
+    category: "Tech",
+    image: "/products/noise-cancelling-earbuds-pro.jpg", // Replace with real image later
+    description: "Ultra-compact wireless earbuds with 30-hour playback and spatial audio support.",
+    price: 129,
+    rating: 4.7,
+    pros: ["Superior Sound", "Compact Case", "Water Resistant"],
+    cons: ["Only 2 Colors available", "Touch controls take time to learn"],
+    affiliateLink: "https://www.amazon.com/dp/B08ZZZZZZ?tag=YOUR_AFFILIATE_ID"
+  },
+  {
+    id: 6,
+    title: "Ultra Health Smartwatch 2026",
+    slug: "ultra-health-smartwatch",
+    category: "Tech",
+    image: "/products/health-smartwatch.jpg",
+    description: "Advanced health tracking with heart rate, SpO2, and built-in GPS for athletes.",
+    price: 199,
+    rating: 4.9,
+    pros: ["7-Day Battery", "Bright AMOLED Screen", "Accurate GPS"],
+    cons: ["Premium Price", "Limited App Store"],
+    affiliateLink: "https://www.amazon.com/dp/B08ZZZZZZ?tag=YOUR_AFFILIATE_ID"
+  },
+
+  {
+  id: 7,
+  title: "Smart LED Floor Lamp",
+  slug: "smart-led-floor-lamp",
+  category: "Home",
+  image: "/products/smart-led-floor-lamp.jpg",
+  description: "Modern minimalist floor lamp with 16 million colors and voice control via Alexa/Google Home.",
+  price: 79,
+  rating: 4.5,
+  pros: ["Voice Control", "Energy Efficient", "Sleek Design"],
+  cons: ["Requires 2.4GHz Wi-Fi", "Assembly takes 10 mins"],
+  affiliateLink: "https://www.amazon.com/dp/B08ZZZZZZ?tag=YOUR_AFFILIATE_ID"
+},
+{
+  id: 8,
+  title: "Digital Air Fryer Pro 2026",
+  slug: "digital-air-fryer-pro",
+  category: "Kitchen",
+  image: "/products/air-fryer-pro.jpg",
+  description: "Oil-free cooking with 8 presets and a 5.8-quart capacity, perfect for healthy family meals.",
+  price: 119,
+  rating: 4.8,
+  pros: ["Easy to Clean", "Fast Cooking", "Touch Screen"],
+  cons: ["Bulky for small counters", "Slightly noisy fan"],
+  affiliateLink: "https://www.amazon.com/dp/B08ZZZZZZ?tag=YOUR_AFFILIATE_ID"
+},
+{
+  id: 9,
+  title: "Electric Gooseneck Kettle",
+  slug: "electric-gooseneck-kettle",
+  category: "Kitchen",
+  image: "/products/electric-gooseneck-kettle.jpg",
+  description: "Precision pour-over kettle with temperature control for coffee and tea enthusiasts.",
+  price: 85,
+  rating: 4.7,
+  pros: ["Precise Pouring", "Quick Boil", "Stainless Steel"],
+  cons: ["Small capacity (0.8L)", "Premium price for a kettle"],
+  affiliateLink: "https://www.amazon.com/dp/B08ZZZZZZ?tag=YOUR_AFFILIATE_ID"
+},
+{
+  id: 10,
+  title: "Smart Robot Vacuum Cleaner",
+  slug: "smart-robot-vacuum-cleaner",
+  category: "Home",
+  image: "/products/smart-robot-vacuum-cleaner.jpg",
+  description: "Self-charging robotic vacuum with cliff sensors and powerful suction for pet hair and hard floors.",
+  price: 249,
+  rating: 4.6,
+  pros: ["Self-Charging", "App Control", "Slim Profile"],
+  cons: ["Needs clear floors", "Can't climb stairs"],
+  affiliateLink: "https://www.amazon.com/dp/B08ZZZZZZ?tag=YOUR_AFFILIATE_ID"
+},
+];
+
+export default products;
