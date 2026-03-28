@@ -26,7 +26,7 @@ export default async function ReviewPage({ params }) {
           <div className="text-yellow-500 text-lg">⭐ ⭐ ⭐ ⭐ ⭐ <span className="text-gray-500 text-sm">({product.rating})</span></div>
         </div>
 
-        <div className="relative w-full h-[250px] md:h-[400px] mb-8 bg-gray-50 rounded-xl">
+        <div className="relative w-full h-[250px] md:h-[400px] mb-8 bg-white rounded-xl">
           <Image src={product.image} alt={product.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain p-4" priority />
         </div>
 

@@ -7,11 +7,17 @@ export default function ProductCard({ product }) {
     <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-xl transition-all duration-300 flex flex-col h-full group">
       
       
+      {/* <a 
+        href={product.affiliateLink} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="relative w-full aspect-square mb-4 rounded-lg bg-white overflow-hidden block"
+      > */}
       <a 
         href={product.affiliateLink} 
         target="_blank" 
         rel="noopener noreferrer" 
-        className="relative w-full aspect-square mb-4 rounded-lg bg-[#f9f9f9] overflow-hidden block"
+        className="relative w-full aspect-square mb-4 rounded-lg bg-white border border-gray-100 overflow-hidden block"
       >
         <Image
           src={product.image}

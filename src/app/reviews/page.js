@@ -17,7 +17,7 @@ export default function ReviewsListing() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
             <div key={product.id} className="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition">
-              <div className="relative h-48 w-full bg-gray-50">
+              <div className="relative h-48 w-full bg-white">
                 <Image src={product.image} alt={product.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-contain p-4" />
               </div>
               <div className="p-6">

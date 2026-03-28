@@ -65,6 +65,71 @@ const products = [
     cons: ["Blades are extremely sharp", "Requires some force for hard veggies"],
     affiliateLink: "https://amzn.to/4rOPdJ7"
   },
+  {
+    id: 6,
+    title: "Bissell Little Green Portable Carpet Cleaner",
+    slug: "bissell-little-green-carpet-cleaner-review",
+    category: "Home",
+    image: "/products/bissell-cleaner.jpg",
+    description: "The ultimate viral cleaning hack for deep cleaning carpets, upholstery, and car interiors with ease.",
+    price: 75,
+    rating: 4.5,
+    pros: ["Powerful Suction", "Large Tank Capacity", "Perfect for Pet Messes"],
+    cons: ["Slightly Noisy", "Requires manual scrubbing for deep stains"],
+    affiliateLink: "https://amzn.to/481AOlv" 
+  },
+  {
+    id: 7,
+    title: "Electric Spin Scrubber (Cordless Power)",
+    slug: "electric-spin-scrubber-bathroom-cleaner-review",
+    category: "Home",
+    image: "/products/spin-scrubber.jpg",
+    description: "Save your back and knees with this cordless power scrubber that tackles tough bathroom and kitchen grime.",
+    price: 37,
+    rating: 4.4,
+    pros: ["Long Battery Life", "Multiple Brush Heads", "Extending Handle"],
+    cons: ["Charging takes a few hours", "Needs firm grip for high speed"],
+    affiliateLink: "https://amzn.to/3O4mdiw"
+  },
+  {
+    id: 8,
+    title: "Tovolo Collapsible Microwave Splatter Cover",
+    slug: "tovolo-microwave-splatter-cover-review",
+    category: "Kitchen",
+    image: "/products/tovolo-microwave-cover.jpg",
+    description: "The ultimate kitchen essential that keeps your microwave clean. This BPA-free silicone cover is collapsible for easy storage and vented for perfect heating.",
+    price: 11, // Price check kar lijiyega, aksar $10-$15 ke darmiyan hoti hai
+    rating: 4.5,
+    pros: ["Collapsible for Easy Storage", "BPA-Free Silicone", "Dishwasher Safe"],
+    cons: ["Might be small for very large platters", "Handle can get hot after long use"],
+    affiliateLink: "https://amzn.to/3PttB7A" // Apna original link yahan paste karein
+  },
+ {
+    id: 9,
+    title: "Phomemo D30 Bluetooth Label Maker (3 Tape Bundle)",
+    slug: "phomemo-d30-label-maker-machine-review",
+    category: "Tech",
+    image: "/products/phomemo-d30.jpg",
+    description: "The ultimate portable mini label printer for home and office. This bundle includes 3 rolls of tape and multiple templates to help you organize everything effortlessly via Bluetooth.",
+    price: 38, 
+    rating: 4.3,
+    pros: ["Includes 3 Label Tapes", "Easy Bluetooth App Control", "Inkless Thermal Printing"],
+    cons: ["Only Prints Black & White", "Needs to be recharged for long use"],
+    affiliateLink: "https://amzn.to/4cbafg6" 
+  },
+  {
+    id: 10,
+    title: "Sunrise Alarm Clock (Wake-Up Light)",
+    slug: "sunrise-alarm-clock-sleep-aid-review",
+    category: "Tech",
+    image: "/products/sunrise-clock.jpg",
+    description: "Wake up naturally with a simulated sunrise that improves mood and energy levels every morning.",
+    price: 42,
+    rating: 4.3,
+    pros: ["Natural Wake-Up", "Multiple Sound Options", "Great Aesthetic Look"],
+    cons: ["Slightly bulky on nightstand", "Setup can be confusing at first"],
+    affiliateLink: "https://amzn.to/4syUe9H"
+  },
 ];
 
 export default products;
