@@ -98,11 +98,11 @@ const products = [
     category: "Kitchen",
     image: "/products/tovolo-microwave-cover.jpg",
     description: "The ultimate kitchen essential that keeps your microwave clean. This BPA-free silicone cover is collapsible for easy storage and vented for perfect heating.",
-    price: 11, // Price check kar lijiyega, aksar $10-$15 ke darmiyan hoti hai
+    price: 11, 
     rating: 4.5,
     pros: ["Collapsible for Easy Storage", "BPA-Free Silicone", "Dishwasher Safe"],
     cons: ["Might be small for very large platters", "Handle can get hot after long use"],
-    affiliateLink: "https://amzn.to/3PttB7A" // Apna original link yahan paste karein
+    affiliateLink: "https://amzn.to/3PttB7A" 
   },
  {
     id: 9,
@@ -130,6 +130,71 @@ const products = [
     cons: ["Slightly bulky on nightstand", "Setup can be confusing at first"],
     affiliateLink: "https://amzn.to/4syUe9H"
   },
+  {
+  id: 11,
+  title: "TrendPlain 2-in-1 Glass Olive Oil Sprayer",
+  slug: "trendplain-olive-oil-sprayer-mister-dispenser-review",
+  category: "Kitchen",
+  image: "/products/oil-sprayer.jpg",
+  description: "The ultimate 2-in-1 kitchen tool that lets you pour and mist oil effortlessly for healthier cooking, salads, and air fryers.",
+  price: 10,
+  rating: 4.5,
+  pros: ["Dual Pour & Spray Function", "High-Quality Leak-Proof Glass", "Perfect for Air Fryer Misting"],
+  cons: ["Needs regular cleaning to prevent clog", "Slightly heavier than plastic bottles"],
+  affiliateLink: "https://amzn.to/4me6PNg"
+},
+{
+  id: 12,
+  title: "White Stackable Vanity & Skincare Organizers",
+  slug: "white-stackable-acrylic-skincare-makeup-organizer-drawers",
+  category: "Home",
+  image: "/products/vanity-drawers.jpg", 
+  description: "Declutter your vanity with these premium white stackable drawers. Featuring clear fronts to beautifully display your skincare and makeup essentials.",
+  price: 28,
+  rating: 4.8,
+  pros: ["Premium White Frame & Clear Fronts", "Perfect for Aesthetic Skincare Display", "Space-Saving Stackable Design"],
+  cons: ["Needs careful cleaning to avoid scratches", "Each drawer is approx 5 inches high, check product dimensions"],
+  affiliateLink: "https://amzn.to/4bSckO2"
+},
+{
+  id: 13,
+  title: "Aesthetic Magnetic Acrylic Fridge Calendar",
+  slug: "acrylic-fridge-calendar-weekly-planner-board",
+  category: "Home",
+  image: "/products/fridge-calendar.jpg",
+  description: "Keep your family on track with this sleek, transparent magnetic calendar. A beautiful way to plan meals and schedules.",
+  price: 18,
+  rating: 4.5,
+  pros: ["Strong N52 Magnets", "Modern Minimalist Design", "Includes 4 Vibrant Liquid Markers"],
+  cons: ["Does not work on stainless steel (non-magnetic)", "Needs a wet cloth to erase perfectly"],
+  affiliateLink: "https://amzn.to/4sizimr"
+},
+{
+  id: 14,
+  title: "Wireless Motion Sensor Under-Cabinet LED Lights",
+  slug: "rechargeable-motion-sensor-closet-under-cabinet-lights",
+  category: "Tech",
+  image: "/products/closet-lights.jpg",
+  description: "Instantly light up dark corners, closets, or kitchen counters without any wiring. Long-lasting battery and easy stick-on installation.",
+  price: 22,
+  rating: 4.6,
+  pros: ["USB Rechargeable (No Batteries Needed)", "3 Color Temperature Modes", "Stick-on Magnetic Strip"],
+  cons: ["Motion sensor range is approx 10ft", "Needs charging every 2-3 weeks with high use"],
+  affiliateLink: "https://amzn.to/41fUQVS"
+},
+{
+  id: 15,
+  title: "JISULIFE 3-in-1 Handheld Mini Fan",
+  slug: "jisulife-portable-handheld-fan-powerbank-flashlight",
+  category: "Tech",
+  image: "/products/handheld-fan.jpg",
+  description: "A pocket-sized life saver that works as a fan, a backup power bank for your phone, and a bright flashlight for emergencies.",
+  price: 14,
+  rating: 4.6,
+  pros: ["Up to 21 Hours Battery Life", "Doubles as a Power Bank", "Super Compact and Quiet"],
+  cons: ["Blade covers are soft but can be dusty", "Only 2 speed settings"],
+  affiliateLink: "https://amzn.to/4dZWeDq"
+},
 ];
 
 export default products;
