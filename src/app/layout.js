@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SmartDealNest | Best Tech, Home & Kitchen Reviews 2026",
   description: "Find the best deals and in-depth reviews on the latest tech gadgets, home essentials, and kitchen appliances at SmartDealNest.",
+  verification: {
+    google: "meryjMIsdNMjS3s6cwIrbpF6eqQ_1-aji1WxUVkoLPE", 
+  },
 };
 
 export default function RootLayout({ children }) {
