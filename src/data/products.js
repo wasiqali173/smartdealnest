@@ -195,6 +195,71 @@ const products = [
   cons: ["Blade covers are soft but can be dusty", "Only 2 speed settings"],
   affiliateLink: "https://amzn.to/4dZWeDq"
 },
+{
+  id: 16,
+  title: "Solar Ground Lights Outdoor Waterproof (8 Pack)",
+  slug: "solar-ground-lights-waterproof-garden-landscape-lighting-review",
+  category: "Home",
+  image: "/products/solar-ground-lights.jpg",
+  description: "Illuminate your pathways and garden with these eco-friendly solar lights. Bright, waterproof, and easy to install for an instant luxury outdoor look.",
+  price: 25,
+  rating: 4.3,
+  pros: ["Solar Powered (No Wiring)", "IP65 Waterproof Rating", "Automatic Dusk-to-Dawn Sensor"],
+  cons: ["Needs 6-8 hours of direct sunlight", "Not ideal for heavily shaded areas"],
+  affiliateLink: "https://amzn.to/481w7bu"
+},
+{
+  id: 17,
+  title: "KitchenAid Gourmet Multi-Sided Meat Tenderizer",
+  slug: "kitchenaid-gourmet-meat-tenderizer-pounding-tool-review",
+  category: "Kitchen",
+  image: "/products/meat-tenderizer.jpg",
+  description: "A professional-grade tool for perfectly tenderized meat, nuts, and shellfish. Features a heavy-duty design with a comfortable non-slip handle.",
+  price: 10,
+  rating: 4.8,
+  pros: ["Double-Sided for Pounding & Texturing", "Dishwasher Durable Enamel", "Ergonomic Grip"],
+  cons: ["Hand wash recommended for longevity", "Heavier than basic plastic models"],
+  affiliateLink: "https://amzn.to/4cKYmxJ"
+},
+{
+  id: 18,
+  title: "Bedsure Satin Cooling Pillowcases (2 Pack)",
+  slug: "bedsure-satin-silk-pillowcase-for-hair-and-skin-review",
+  category: "Home",
+  image: "/products/satin-pillowcase.jpg",
+  description: "Protect your hair and skin with these luxurious cooling satin pillowcases. Reduces friction and prevents bed-head for a better night's sleep.",
+  price: 10,
+  rating: 4.5,
+  pros: ["Hair & Skin Protection", "Cooling Satin Material", "Secure Envelope Closure"],
+  cons: ["Needs delicate wash cycle", "Slightly slippery for some sleepers"],
+  affiliateLink: "https://amzn.to/427jo3t"
+},
+{
+  id: 19,
+  title: "Govee Smart RGBIC LED Strip Lights (32.8ft)",
+  slug: "govee-smart-rgbic-led-strip-lights-music-sync-review",
+  category: "Tech",
+  image: "/products/govee-lights.jpg",
+  description: "Transform your room with smart LED lights. Features DIY color segments, music sync, and app control for the ultimate gaming or bedroom vibe.",
+  price: 29,
+  rating: 4.4,
+  pros: ["Music Sync Technology", "Multiple Colors on One Line", "Easy App & Bluetooth Control"],
+  cons: ["Cannot be cut (RGBIC limitations)", "Requires 2.4GHz Wi-Fi for some features"],
+  affiliateLink: "https://amzn.to/4t7zk1C"
+},
+{
+  id: 20,
+  title: "360° Auto Face Tracking Tripod with Gesture Control",
+  slug: "auto-face-tracking-tripod-phone-stand-tiktok-vlogging",
+  category: "Tech",
+  image: "/products/tracking-tripod.jpg",
+  description: "The ultimate tool for creators. No app required—simply use gestures to start tracking. Perfect for TikTok, live streams, and hands-free recording.",
+  price: 30,
+  rating: 4.4,
+  pros: ["AI Auto-Tracking (No App Needed)", "360° Rotation & Gesture Control", "Rechargeable & Portable"],
+  cons: ["Best for solo shots, can get confused in crowds", "Motor sound is very faint but present"],
+  affiliateLink: "https://amzn.to/41ApVDH"
+},
 ];
 
 export default products;
